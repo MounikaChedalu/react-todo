@@ -1,0 +1,59 @@
+.todo-form{
+   
+    margin-left: 550px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.title{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.todo-input{
+    height:40px;
+    width:300px;
+    border-radius: 5px;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.todo-button{
+    height:40px;
+    width:100px;
+    margin-left: 8px;
+    border-radius: 5px;
+    background-color:cadetblue;
+    font-size: larger;
+    color:white;
+    border: none;
+    margin-bottom: 50px;
+}
+.todo-row:nth-child(odd){
+    display: flex;
+    justify-content: space-between;
+    background-color:lightsteelblue;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin-left: -50px;
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+.todo-row:nth-child(even){
+    display: flex;
+    justify-content: space-between;
+    background-color:lightblue;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin-left: -50px;
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+.edit-icon{
+    margin-right: 20px;
+}
